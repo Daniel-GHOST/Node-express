@@ -42,19 +42,19 @@ app.get('/hours', (req, res, next)=>{
 })
 
 app.get('/a3test1', (req, res, next)=>{
-	res.sendfile("assets/a3_test1.json")
+	res.sendfile("assets/3a_test1.json")
 })
 
 app.get('/a3test2', (req, res, next)=>{
-	res.sendfile("assets/a3_test2.json")
+	res.sendfile("assets/3a_test2.json")
 })
 
 app.get('/a3test3', (req, res, next)=>{
-	res.sendfile("assets/a3_test3.json")
+	res.sendfile("assets/3a_test3.json")
 })
 
 app.get('/a3test4', (req, res, next)=>{
-	res.sendfile("assets/a3_test4.json")
+	res.sendfile("assets/3a_test4.json")
 })
 
 
