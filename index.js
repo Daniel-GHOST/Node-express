@@ -53,6 +53,10 @@ app.get('/a3-test3', (req, res, next)=>{
 	res.sendfile("assets/a3_test3.json")
 })
 
+app.get('/a3-test4', (req, res, next)=>{
+	res.sendfile("assets/a3_test4.json")
+})
+
 
 app.listen(port,  () => 
 	console.log('listening on port ' + port
